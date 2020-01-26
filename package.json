@@ -1,0 +1,16 @@
+{
+  "name": "project_euler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^6.0.2"
+  }
+}
